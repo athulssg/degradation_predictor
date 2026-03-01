@@ -1,10 +1,28 @@
+# Model and training data (generated at runtime)
+model.pkl
+training_data.csv
+output_with_MF_Ratio.csv
+test_*.csv
+test_*.pkl
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
-.env
+*.pyd
 *.egg-info/
 dist/
 build/
+
+# Environments
+.env
 .venv/
 venv/
-output_with_MF_Ratio.csv
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
