@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+CLAUDE.md
+model.pkl
+training_data.csv
+output_with_MF_Ratio.csv
+test_*.csv
+test_*.pkl
